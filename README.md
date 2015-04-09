@@ -8,7 +8,7 @@ This is a simple text-based adventure.  In it, you can do many basic text-based 
 ### Virtual Piano  
 **Professional Enrichment Project**  
 **June 2010**  
-This is a virtual piano like one you might see in Garage Band.  By pressing the coresponding computer keys or by clicking on the GUI keys with the mouse, appropriate MIDI sounds are generated.  The keys also get visually highlighted when they are played.
+This is a virtual piano like one you might see in Garage Band.  By pressing the corresponding computer keys or by clicking on the GUI keys with the mouse, appropriate MIDI sounds are generated.  The keys also get visually highlighted when they are played.
 
 ---
 
