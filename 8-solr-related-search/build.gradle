@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+//task runFinalJar(type: JavaExec) {
+//    classpath = files('build/libs/8-solr-related-search.jar')
+//    classpath += sourceSets.main.runtimeClasspath
+//    main = RelatedSearch.class
+//}
+
+dependencies {
+    compile 'org.apache.solr:solr-solrj:6.1.0'
+}
