@@ -1,6 +1,6 @@
 #Solr Related Search
 
-
+This project adds a "related search" feature on top of Solr.  Let's say someone searches for "book space mission" and clicks on one of the search results.  That click will increase the score of the group of search terms "book space mission".  Now, if someone searches for "space book", the list of related searches will include "book space mission", but it'll never include "space" or "movie space".  The higher the score, the higher on the list it'll be.  Assuming they are interested more in space missions than just space in general, that suggested search will help them zero in on what they are looking for.
 
 ##Setup
 
