@@ -4,12 +4,15 @@ repositories {
     mavenCentral()
 }
 
-//task runFinalJar(type: JavaExec) {
-//    classpath = files('build/libs/8-solr-related-search.jar')
-//    classpath += sourceSets.main.runtimeClasspath
-//    main = RelatedSearch.class
-//}
+task runFinalJar(type: JavaExec) {
+    classpath = files('build/libs/8-solr-related-search.jar')
+    classpath += sourceSets.main.runtimeClasspath
+    main = 'RelatedSearch'
+}
 
 dependencies {
     compile 'org.apache.solr:solr-solrj:6.1.0'
+    compile 'org.slf4j:slf4j-simple:1.7.21'
+
+
 }
