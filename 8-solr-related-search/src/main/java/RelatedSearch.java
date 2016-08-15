@@ -91,7 +91,7 @@ public class RelatedSearch {
                 }
                 responseStr = "Related Searches:\n" + relatedSearchesStr + "\n" + responseStr;
             }
-            
+
             sendResponse(t, 200, responseStr);
         }
     }
